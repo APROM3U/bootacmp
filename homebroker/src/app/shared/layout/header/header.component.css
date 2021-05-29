@@ -1,0 +1,24 @@
+.header{
+    width: 100%;
+    padding: 1rem 1rem; /*ren é uma unidade relativa -> 1 rem eq. 16px */
+    /* 
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px; 
+    */
+    background-color: var(--primary-color);
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    box-shadow: 0 3px 6px rgba(0, 0, 0 , 0.16), 0 3px 6px rgba(0, 0, 0 , 0.23);
+}
+
+/* Recurso do css para telas */
+@media screen and (max-width: 768px){
+    .header{
+        justify-content: center;
+        align-items: center;
+    }
+}
