@@ -3,7 +3,7 @@ class Stock {
     name: string;
     price: number;
     minimum: number;
-    exclusiveMininum: boolean;
+    exclusiveMinimum: boolean;
     variation: number;
     date: string;
     /*list: string[];*/
