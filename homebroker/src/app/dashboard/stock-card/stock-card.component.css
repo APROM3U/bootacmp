@@ -69,5 +69,5 @@
 }
 
 .stock-value-container .negative-variation {
-    border-left-color: var(--negative-variation-color);
+    background-color: var(--negative-variation-color);
 }
